@@ -18,7 +18,7 @@ const routes: Routes = [
   {path:'usuarios', component: UsuariosComponent, 
   children: [  
     {path:'agregar', component: AgregarusuariosComponent},
-    {path:'editar', component: EditarusuariosComponent}
+    {path:'editar', component: EditarusuariosComponent},
   ]},
 
   {path:'**', component: PaginaerrorComponent},
