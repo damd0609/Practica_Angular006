@@ -11,8 +11,8 @@ import { PaginaerrorComponent } from './paginaerror/paginaerror.component';
 import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { PiepaginaComponent } from './piepagina/piepagina.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
-import { AgregarusuariosComponent } from './agregarusuarios/agregarusuarios.component';
-import { EditarusuariosComponent } from './editarusuarios/editarusuarios.component';
+import { AgregarusuariosComponent } from './usuarios/agregarusuarios/agregarusuarios.component';
+import { EditarusuariosComponent } from './usuarios/editarusuarios/editarusuarios.component';
 
 @NgModule({
   declarations: [
